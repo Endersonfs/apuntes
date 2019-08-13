@@ -1,0 +1,2 @@
+En media template en Grud el localhost para la configuracion se debe poner esto por el host, es lo mismo que poner localhost
+--internal-db.s20792.gridserver.com
