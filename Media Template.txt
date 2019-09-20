@@ -1,7 +1,5 @@
 En media template en Grud el localhost para la configuracion se debe poner esto por el host, es lo mismo que poner localhost
 --internal-db.s20792.gridserver.com
 
-
-
 Let's Encrypt ofrece certificados SSL gratuitos que se pueden aplicar a un servidor de alojamiento GRID siguiendo las instrucciones aquí.
 --https://mediatemple.net/community/products/grid/208603976/install-a-let's-encrypt-ssl
