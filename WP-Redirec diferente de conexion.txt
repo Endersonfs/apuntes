@@ -1,0 +1,19 @@
+En este codigo vemos como puedomos colocar varias conexiones para un mismo proyecto
+Esto funciona para realizar versiones de control
+
+if (stristr($_SERVER['SERVER_NAME'], 'mago.com')){ //local
+    define('DB_HOST', 'localhost');	
+    define('DB_NAME', 'mago_beta');
+    define('DB_USER', 'magoweb_beta');
+    define('DB_PASSWORD', '4fO9A&7Uwp');
+}else if(stristr($_SERVER['SERVER_NAME'], '.luis')){ //control de versiones
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'mago');
+    define('DB_USER', 'homesteadam');
+    define('DB_PASSWORD', 'secret');
+}else{ // PRODUCTION
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'mago_ars_');
+    define('DB_USER', 'mago_ars_');
+    define('DB_PASSWORD', '5RFYFcWz7');
+}
